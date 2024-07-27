@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Playball&display=swap');
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Ensure the slider takes the full height */
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: auto;
+    height: 65vh; /* Ensure the image doesn't overflow the slider */
+    object-fit: contain; /* Maintain the aspect ratio of the image */
+    transition: transform 0.5s ease-in-out;
+    border-radius: 25px;
+    border: 2px solid blue;
+    
+  }
+.text{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 14px;
+    font-family: 'Playball', cursive;
+}
+
+  

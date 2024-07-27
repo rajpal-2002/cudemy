@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.menuicon{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.logo{
+    padding: 10px;
+}
+.logo h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+.searchbar{
+    padding: 10px;
+    padding-right: 100px;
+}
+.inputround{
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.signin{
+    padding: 10px;
+}
+.buttonround{
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.notifications{
+    padding: 10px;
+    color: white;
+    padding-right: 15px;
+}
+
+.chatbot_icon {
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.chatbot_icon .MuiSvgIcon-root {
+    font-size: 2.5rem; 
+    padding-top: 7px;
+}

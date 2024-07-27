@@ -1,0 +1,41 @@
+.dashboard_react {
+    padding: 20px;
+    width: 100%;
+  }
+  
+.dashboard_react h1{
+    color: #fff;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.video-cards_react {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  
+
+.video-card_react {
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  }
+  
+  .video-card_react img {
+    width: 100%;
+    height: auto;
+  }

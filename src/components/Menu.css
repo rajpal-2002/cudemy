@@ -1,0 +1,99 @@
+/* Menu.css */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Noto+Sans+JP:wght@100..900&display=swap');
+.sidebar{
+    display: inline-block;
+}
+.sidebar h1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+.options{
+    display: flex;
+}
+.options ul{
+    padding: 0px;
+    padding-top: 10px;
+    
+}
+.options ul li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: black;
+    border-radius: 20px;
+}
+.options ul li p{
+    padding: 10px;
+}
+.home p{
+  color: #fff;
+}
+.home a{
+  text-decoration: none;
+}
+.menu {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+.dashboard {
+    padding: 20px;
+    width: 80%;
+  }
+  
+.dashboard h1{
+    color: #fff;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  .video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .video-card {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  }
+  
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+.icon{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.icon button{
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+
+}
